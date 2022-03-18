@@ -7,7 +7,7 @@ namespace For_Bars
         static void Main(string[] args)
         {
             var worker = new Test();
-            worker.OnKeyPressed += (o,name) => Console.WriteLine(name);
+            worker.OnKeyPressed += (o,name) => Console.WriteLine($"Введённый символ {name}");;
             worker.Run();
         }
 
@@ -22,7 +22,8 @@ namespace For_Bars
             {
                 char name = char.Parse(Console.ReadLine());
                 OnKeyPressed?.Invoke(this, name);
-                if (name == 'c') break;
+                if (name == 'c' ) break; //Английская
+                if (name == 'с' ) break; //Русская
             }
         }
     }
