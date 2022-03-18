@@ -21,9 +21,9 @@ namespace For_Bars
             while (true)
             {
                 char name = char.Parse(Console.ReadLine());
+                OnKeyPressed?.Invoke(this, name);
                 if (name == 'c' ) break; //Английская
                 if (name == 'с' ) break; //Русская
-                OnKeyPressed?.Invoke(this, name);
             }
         }
     }
