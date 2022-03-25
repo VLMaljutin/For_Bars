@@ -1,7 +1,0 @@
-
-[Info]: [Int32] : Var Int
-[Warning] : [Int32] : Var Int
-[Error] : [Int32] : Var Int. Exception of type 'System.Exception' was thrown.
-[Info]: [Int32] : Var Int
-[Warning] : [Int32] : Var Int
-[Error] : [Int32] : Var Int. Exception of type 'System.Exception' was thrown.
