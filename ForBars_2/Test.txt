@@ -1,7 +1,16 @@
 
 [Info]: [Int32] : Var Int
-[Warning] : [Int32] : Var Int
-[Error] : [Int32] : Var Int. Exception of type 'System.Exception' was thrown.
-[Info]: [Int32] : Var Int
-[Warning] : [Int32] : Var Int
-[Error] : [Int32] : Var Int. Exception of type 'System.Exception' was thrown.
+[Warning] : [Int32] : Warnig Int
+[Error] : [Int32] : Error Int. Attempted to divide by zero.
+[Info]: [String] : Var String
+[Warning] : [String] : Warning String
+[Error] : [String] : Error String. One of the identified items was in an invalid format.
+[Info]: [Boolean] : Var Bool
+[Warning] : [Boolean] : Warning Bool
+[Error] : [Boolean] : Error Bool. Specified method is not supported.
+[Info]: [Single] : Var Float
+[Warning] : [Single] : Warning Float
+[Error] : [Single] : Error Float. Value does not fall within the expected range.
+[Info]: [Object] : Var Object
+[Warning] : [Object] : Warning Object
+[Error] : [Object] : Error Object. The operation has timed out.
