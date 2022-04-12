@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Bars", "For_Bars\For_Bars.csproj", "{0075891C-E162-49AC-9EB6-771BF338424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Bars_2", "For_Bars_2\For_Bars_2.csproj", "{A825229E-95CA-4B73-8AA8-A8C72FBA0D3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Bars_2", "For_Bars_2\For_Bars_2.csproj", "{A825229E-95CA-4B73-8AA8-A8C72FBA0D3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Bars_3", "For_Bars_3\For_Bars_3.csproj", "{5C724B94-1186-487A-8C58-7E20FE0FF134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Bars_3", "For_Bars_3\For_Bars_3.csproj", "{5C724B94-1186-487A-8C58-7E20FE0FF134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Bars_4", "For_Bars_4\For_Bars_4.csproj", "{922932F0-17D0-43D6-80B1-B53E57C8F38E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5C724B94-1186-487A-8C58-7E20FE0FF134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C724B94-1186-487A-8C58-7E20FE0FF134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C724B94-1186-487A-8C58-7E20FE0FF134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922932F0-17D0-43D6-80B1-B53E57C8F38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922932F0-17D0-43D6-80B1-B53E57C8F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922932F0-17D0-43D6-80B1-B53E57C8F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922932F0-17D0-43D6-80B1-B53E57C8F38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
